@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import FaSearch from 'react-icons/lib/fa/search';
+import log from './start.js';
 
 class ModalConsulta extends React.Component {
   constructor(props) {
@@ -16,6 +17,7 @@ class ModalConsulta extends React.Component {
     this.setState({
       modal: !this.state.modal
     });
+    log();
   }
 
   render() {
