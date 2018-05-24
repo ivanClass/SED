@@ -48,15 +48,6 @@ class NavBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/documentacion"><TiDocumentText size={40}/>Documentación</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/desarrolladores"><GoBug size={40}/>Desarrolladores</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/contacto"><MdContact size={40}/>Contacto</NavLink>
-              </NavItem>
-              <NavItem>
                 <NavLink href="https://github.com/ivanClass/SED"><FaGithub size={40}/>Proyecto</NavLink>
               </NavItem>
             </Nav>

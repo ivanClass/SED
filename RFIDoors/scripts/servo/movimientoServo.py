@@ -41,7 +41,6 @@ def cerrarPuertaDer():
 
 	pDer.stop()
 	GPIO.cleanup()
-	print("mec")
 
 def cerrarPuertaIzq():
 	GPIO.setmode(GPIO.BCM)
@@ -50,7 +49,7 @@ def cerrarPuertaIzq():
 	pIzq = GPIO.PWM(5, 50)
 
 	pIzq.start(7.5)
-	pIzq.ChangeDutyCycle(7.5) #Poner el servo a 90 grados
+	pIzq.ChangeDutyCycle(8.5) #Poner el servo a 90 grados
 	time.sleep(0.3)
 
 	pIzq.stop()
