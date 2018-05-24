@@ -11,7 +11,7 @@ class ModalConsulta extends React.Component {
     };
 
     this.toggle = this.toggle.bind(this);
-    this.ejecutaPython = this.ejecutaPython.bind(this);
+    //this.ejecutaPython = this.ejecutaPython.bind(this);
   }
 
   toggle() {
@@ -22,7 +22,7 @@ class ModalConsulta extends React.Component {
   }
 
   ejecutaPython(){
-    //log();
+    console.log('HOLAAAAAAAAAAA')
   }
 
   render() {
